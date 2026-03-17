@@ -1,0 +1,9 @@
+{
+  "id": "rules-idiomatic",
+  "name": "Idiomatic & Standard Patterns",
+  "category": "source-rules",
+  "description": "Write standard, idiomatic code. No clever tricks.",
+  "tags": ["style", "idiomatic", "best-practices"],
+  "content": "## Code Style: Idiomatic & Standard Patterns\n\n- Write code that a new team member can understand without explanation.\n- Follow the language's official style guide and community conventions.\n- No premature abstraction — three similar lines of code is better than a premature helper.\n- No magic numbers — use named constants.\n- Error handling is not optional. Every error must be checked and either handled or explicitly propagated.\n- Comments explain *why*, not *what*. Code should be self-documenting.",
+  "builtin": true
+}

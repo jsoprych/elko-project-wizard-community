@@ -1,0 +1,9 @@
+{
+  "id": "rules-minimal-deps",
+  "name": "Minimize Dependencies",
+  "category": "source-rules",
+  "description": "Prefer stdlib over 3rd party packages. Every dependency must be justified.",
+  "tags": ["dependencies", "philosophy", "minimal"],
+  "content": "## Dependency Philosophy: Minimize 3rd Party Dependencies\n\n- **Default to stdlib.** Reach for an external package only when stdlib is genuinely insufficient.\n- Every new dependency requires a one-line justification in the PR description.\n- Prefer single-purpose, well-maintained, low-dependency packages over large frameworks.\n- Audit `go.sum` / `package-lock.json` / `requirements.txt` regularly — remove unused deps.\n- No dependencies with no LICENSE file, no recent activity (>2 years), or known CVEs.",
+  "builtin": true
+}

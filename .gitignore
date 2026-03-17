@@ -1,0 +1,16 @@
+# Binaries
+/elko-project-wizard
+
+# Data
+*.db
+*.sqlite
+.data/
+/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

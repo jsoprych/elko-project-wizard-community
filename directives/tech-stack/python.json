@@ -1,0 +1,9 @@
+{
+  "id": "stack-python",
+  "name": "Python",
+  "category": "tech-stack",
+  "description": "Python project conventions and tooling.",
+  "tags": ["python"],
+  "content": "## Tech Stack: Python\n\n- Use Python 3.12+ with type hints throughout.\n- Dependency management: `uv` (preferred) or `pip` with `requirements.txt`.\n- Test: `pytest` | Lint: `ruff` | Format: `black` or `ruff format`\n- Use virtual environments — never install globally.\n- Greenfield default: Python latest stable (3.12+).",
+  "builtin": true
+}

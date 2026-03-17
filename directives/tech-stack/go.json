@@ -1,0 +1,9 @@
+{
+  "id": "stack-go",
+  "name": "Go",
+  "category": "tech-stack",
+  "description": "Go project conventions and tooling.",
+  "tags": ["go", "golang"],
+  "content": "## Tech Stack: Go\n\n- Use Go modules (`go.mod` / `go.sum`).\n- Standard project layout: `cmd/` for binaries, `internal/` for private packages.\n- Build: `go build ./...` | Test: `go test ./...` | Vet: `go vet ./...` | Format: `go fmt ./...`\n- Prefer `net/http`, `database/sql`, `encoding/json` from stdlib before reaching for external packages.\n- Use table-driven tests. Keep test files `_test.go` in the same package.\n- Greenfield default: use the latest stable Go version.",
+  "builtin": true
+}

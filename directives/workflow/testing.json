@@ -1,0 +1,9 @@
+{
+  "id": "workflow-testing",
+  "name": "Test-First Discipline",
+  "category": "workflow",
+  "description": "Write tests alongside code. Tests run before every commit via pre-commit hook.",
+  "tags": ["testing", "tdd", "pre-commit"],
+  "content": "## Testing Discipline\n\n- **Write tests alongside code** — every new function or module gets a `_test` file.\n- Tests run automatically before every commit via the pre-commit hook (`scripts/hooks/pre-commit`).\n- Install hooks after cloning: `bash scripts/install-hooks.sh`\n- Aim for table-driven tests that cover happy path, edge cases, and error conditions.\n- A failing test is a build blocker — commits are rejected until tests pass.\n- Test names describe the scenario: `TestCreateProfile_DuplicateNameReturnsError`.",
+  "builtin": true
+}

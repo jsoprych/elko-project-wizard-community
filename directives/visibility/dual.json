@@ -1,0 +1,9 @@
+{
+  "id": "visibility-dual",
+  "name": "Dual Edition (Private + Community)",
+  "category": "visibility",
+  "description": "Private source of truth with a pruned public community edition published via script.",
+  "tags": ["visibility", "dual-edition", "community"],
+  "content": "## Repository Strategy: Dual Edition\n\n- **Private repo** is the source of truth — contains full IP, internal docs, and directives.\n- **Community repo** is a pruned public edition published via `scripts/publish-community.sh`.\n- Files listed in `.community-exclude` are stripped before publishing.\n- `AGENTS.md` in the community edition is replaced with a generic stub.\n- Never commit secrets, internal roadmaps, or business plans to the community repo.\n- Run `./scripts/publish-community.sh` to sync after every significant private release.",
+  "builtin": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "stack-nodejs",
+  "name": "Node.js / TypeScript",
+  "category": "tech-stack",
+  "description": "Node.js / TypeScript project conventions and tooling.",
+  "tags": ["nodejs", "typescript", "javascript"],
+  "content": "## Tech Stack: Node.js / TypeScript\n\n- Use TypeScript with strict mode enabled.\n- Package manager: prefer `npm` (or `pnpm` for monorepos).\n- Build: `tsc` | Test: `jest` or `vitest` | Lint: `eslint` | Format: `prettier`\n- Use ES modules (`type: module` in package.json).\n- Greenfield default: Node.js LTS (latest even-numbered version), TypeScript latest stable.",
+  "builtin": true
+}

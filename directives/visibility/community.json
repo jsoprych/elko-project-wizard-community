@@ -1,0 +1,9 @@
+{
+  "id": "visibility-community",
+  "name": "Community / Open Source",
+  "category": "visibility",
+  "description": "Fully public repository with community-first mindset.",
+  "tags": ["visibility", "open-source", "community"],
+  "content": "## Repository Visibility: Community / Open Source\n\n- This is a **public open-source project** — write code, docs, and commit messages as if the whole world is watching (because it is).\n- Prefer clear, well-documented code over clever shortcuts.\n- Include examples and usage docs for every public API.\n- Be welcoming to contributors — no assumptions about their background.",
+  "builtin": true
+}

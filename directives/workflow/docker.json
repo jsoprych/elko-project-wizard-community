@@ -1,0 +1,9 @@
+{
+  "id": "workflow-docker",
+  "name": "Docker & docker-compose",
+  "category": "docker",
+  "description": "Containerize the project with a multi-stage Dockerfile and docker-compose for local dev.",
+  "tags": ["docker", "containers", "devops"],
+  "content": "## Containerization: Docker\n\n- Use a **multi-stage Dockerfile**: build stage + minimal runtime stage.\n- Runtime image should be as small as possible (`alpine`, `distroless`, or `scratch` where applicable).\n- `docker-compose.yml` for local development — includes named volumes for persistent data.\n- Do not store secrets in the image — use environment variables or mounted secret files.\n- The container must be runnable on Linux, macOS (via Docker Desktop), and Windows (via Docker Desktop).\n- Health checks should be defined in docker-compose for services with HTTP endpoints.\n- `.dockerignore` must exclude: `.git/`, test files, dev tooling, and local config.",
+  "builtin": true
+}

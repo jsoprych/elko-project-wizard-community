@@ -1,0 +1,13 @@
+{
+  "id": "rules-function-size",
+  "name": "Function & File Size Limits",
+  "category": "source-rules",
+  "description": "Keep functions and files small and focused.",
+  "tags": ["style", "size", "complexity"],
+  "variables": {
+    "max_func_lines":  { "type": "int", "default": 80,  "description": "Max lines per function" },
+    "max_file_lines":  { "type": "int", "default": 300, "description": "Max lines per file" }
+  },
+  "content": "## Function & File Size Limits\n\n- **Max function length: 80 lines** (excluding comments and blank lines). Split longer functions.\n- **Max file length: 300 lines**. Split larger files by responsibility.\n- One primary concept per file. File names should reflect that concept.\n- If a function needs a comment to explain what it does, it should probably be two functions.\n- Nested conditionals beyond 3 levels deep are a refactor signal.",
+  "builtin": true
+}

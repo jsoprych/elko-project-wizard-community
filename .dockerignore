@@ -1,0 +1,10 @@
+.git/
+*_test.go
+*.db
+*.sqlite
+.data/
+branding/
+scripts/
+*.md
+.community-exclude
+docker-compose.yml

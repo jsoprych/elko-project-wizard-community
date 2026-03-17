@@ -1,0 +1,9 @@
+{
+  "id": "rules-greenfield",
+  "name": "Greenfield: Always Latest Stable",
+  "category": "source-rules",
+  "description": "New projects use the latest stable versions of all tools and dependencies.",
+  "tags": ["greenfield", "versions", "fresh"],
+  "content": "## Greenfield Version Policy\n\n- This is a **new project** — always use the latest stable version of the language, runtime, and all dependencies.\n- Do not use deprecated APIs, legacy patterns, or compatibility shims.\n- Check for newer versions before adding any dependency.\n- Minimum version requirements should be set to latest stable at project start.\n- No backwards-compatibility code unless there is an explicit, documented reason.",
+  "builtin": true
+}

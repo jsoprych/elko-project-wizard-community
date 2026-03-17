@@ -1,0 +1,9 @@
+{
+  "id": "visibility-private",
+  "name": "Private Repo (Full IP)",
+  "category": "visibility",
+  "description": "Fully private repository — all source, docs, and IP stay internal.",
+  "tags": ["visibility", "private"],
+  "content": "## Repository Visibility: Private\n\n- This is a **private repository** — do not reference internal architecture, business logic, or IP in public channels.\n- Do not suggest making the repo public or creating forks without explicit authorization.\n- Internal design docs (`AGENTS.md`, `agent/`, `TODO.yml`) are confidential.",
+  "builtin": true
+}
